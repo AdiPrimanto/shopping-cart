@@ -45,7 +45,7 @@
         </p>
         <p
           v-if="product.discount"
-          class="text-xs text-red-600 rounded-full bg-red-100 px-2 py-1.5 font-medium"
+          class="text-xs text-red-600 rounded-full bg-red-100 px-2 py-1.5 font-medium text-center"
         >
           {{ product.discount }}% OFF
         </p>
